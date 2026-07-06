@@ -1,0 +1,35 @@
+$text-color: #0B0404;
+$text-color-secondary: #78716C;
+$color-primary: #4a9a59b7;
+$color-border: #E7E5E4;
+
+.shape-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    .shape-card {
+        display: block;
+        width: 80px;
+        padding-top: 10px;
+        height: 130px;
+        text-align: center;
+        border-radius: 15%;
+        
+
+        &:hover {
+            /* Зміщуємо вгору та збільшуємо */
+            transform: translateY(-10px) scale(1.05);
+            /* Додаємо ефект тіні */
+            box-shadow: 0 15px 30px rgba(22, 96, 37, 0.2);
+        }
+    
+
+    p {
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+}

@@ -1,0 +1,19 @@
+import { useState } from 'react'
+import { Outlet } from 'react-router'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+
+function App() {
+
+  return (
+    <div className='page-wrapper'>
+      <Header />
+      <div className="page">
+        <Outlet />
+      </div>
+      <Footer />
+    </div>
+  )
+}
+
+export default App

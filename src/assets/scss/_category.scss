@@ -1,0 +1,42 @@
+$text-color: #0B0404;
+$text-color-secondary: #78716C;
+$color-primary: #4a9a59b7;
+$color-hover: #4a9a5933;
+$color-border: #E7E5E4;
+@mixin fz($px) {
+    font-size: calc($px/16)*1rem;
+}
+
+.category-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    .category-text {
+        font-style: 'Prata';
+        @include fz(30);
+        width: 500px;
+        height: 70px;
+        border-bottom: $color-border solid 1px;
+        padding-left: 10%;
+        line-height: 70px;
+        font-weight: 300;
+        letter-spacing:1.5px;
+
+        &:hover{
+            background-color: $color-hover;
+            transition: color ease 0.05s;;
+        }
+    }
+
+    .photo-categoty {
+        display: inline-flex;
+        width: 30%;
+        height: 350px;
+        overflow: hidden;
+        border-radius: 8px;
+        border-color: $color-hover;
+        
+    }
+}
