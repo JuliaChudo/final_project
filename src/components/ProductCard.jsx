@@ -4,7 +4,7 @@ import { animated } from '@react-spring/web'
 export default function ProductCard(props) {
     const product = props.product;
     return (
-        <animated.div initial="hidden"
+        <div initial="hidden"
   whileInView="visible"
   viewport={{ once: true }}
              className="product-card">
@@ -25,6 +25,6 @@ export default function ProductCard(props) {
                     <span key={index} title={color} />
                 ))}
             </div>
-        </animated.div>
+        </div>
     );
 };
