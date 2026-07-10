@@ -10,7 +10,7 @@ export default function Necklaces(){
                 <div className="container">
                     <section className="pagesCategory">
                     <h1>Necklaces</h1>
-                    <Cards product={"Necklaces"} />
+                    <Cards typeJewelry={"Necklaces"} />
                     </section>
                 </div>
             </main>

@@ -28,7 +28,7 @@ export default function Home() {
                     </section>
                     <section>
                        <h2 className="title-section">Bestseller</h2>
-                       <Cards product= {true} />
+                       <Cards typeJewelry= {true} />
                     </section>
                     <section className="promo-section">
                         <div className="promo-wrapper">

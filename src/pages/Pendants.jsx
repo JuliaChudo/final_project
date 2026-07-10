@@ -10,7 +10,7 @@ export default function Pendants(){
                 <div className="container">
                     <section className="pagesCategory">
                     <h1>Pendants</h1>
-                     <Cards product={"Pendants"} />
+                     <Cards typeJewelry={"Pendants"} />
                     </section>
                 </div>
             </main>

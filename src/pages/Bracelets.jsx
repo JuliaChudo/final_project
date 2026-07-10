@@ -9,7 +9,7 @@ export default function Bracelets() {
                 <div className="container">
                     <section className="pagesCategory">
                     <h1>Bracelets</h1>
-                    <Cards product={"Bracelets"} />
+                    <Cards typeJewelry={"Bracelets"} />
                     </section>
                 </div>
             </main>

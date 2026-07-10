@@ -5,6 +5,7 @@ import ProductCard from "./ProductCard";
 export default function Cards({ typeJewelry }) {
     const [products, setProducts] = useState([]);
     async function fetchProducts() {
+        console.log("Поточне значення typeJewelry:", typeJewelry, "Тип:", typeof typeJewelry);
         try {
             const response = await fetch("./mock/products.json", {
                 headers: {

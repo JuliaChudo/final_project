@@ -9,7 +9,7 @@ export default function Earrings(){
                 <div className="container">
                     <section className="pagesCategory">
                     <h1>Earrings</h1>
-                    <Cards product={"Earrings"} />
+                    <Cards typeJewelry={"Earrings"} />
                     </section>
                 </div>
             </main>

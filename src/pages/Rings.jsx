@@ -10,7 +10,7 @@ export default function Rings(){
                 <div className="container">
                     <section className="pagesCategory">
                     <h1>Rings</h1>
-                    <Cards product={"Rings"} />
+                    <Cards typeJewelry={"Rings"} />
                     
                     </section>
                 </div>

@@ -45,6 +45,11 @@ export const router = createBrowserRouter([
                 path: "about",
                 Component: About
             }
-        ]
+        ],
     }
-])
+],
+{
+    // Цей рядок автоматично підставить порожній рядок "" локально
+    // і "/final_project/" під час деплою на GitHub Pages!
+    basename: import.meta.env.BASE_URL, 
+  })
