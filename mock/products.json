@@ -1,48 +1,102 @@
-[{
-    "id": 1,
-    "title": "Solitaire Diamond Engagement Ring",
-    "image": "/PhotoProduct/1_ring.webp",
-    "current_price": 230.00,
-    "old_price": 250.00,
-    "isBestseller": true,
-    "category": "Rings",
-    "colors": ["silver","gold"]
-},
-{
-    "id": 3,
-    "title": "Gold Prestige Intertwined Earrings",
-    "image": "/PhotoProduct/3_earring.webp",
-    "current_price": 120.00,
-    "old_price": 130.00,
-    "isBestseller": false,
-    "category": "Earrings",
-    "colors": [
-        "silver",
-        "gold"
-    ]
-},
-{
-    "id": 4,
-    "title": "Gold Pigeon Blood Earrings",
-    "image": "/PhotoProduct/4_earring.webp",
-    "current_price": 180.00,
-    "old_price": 200.00,
-    "isBestseller": true,
-    "category": "Earrings",
-    "colors": [
-        "gold",
-        "gold"
-    ]
-},
-{
-    "id": 5,
-    "title": "Rose Gold Diamond Earring",
-    "image": "/PhotoProduct/5_earring.webp",
-    "current_price": 280.00,
-    "old_price": 300.00,
-    "isBestseller": false,
-    "category": "Rings",
-    "colors": [
-        "silver"
-    ]
-}]
+[
+    {
+        "id": 1,
+        "title": "Solitaire Diamond Engagement Ring",
+        "image": "/PhotoProduct/1_ring.webp",
+        "current_price": 230.00,
+        "old_price": 250.00,
+        "isBestseller": true,
+        "category": "Rings",
+        "colors": [
+            "silver",
+            "gold"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Gold Prestige Intertwined Earrings",
+        "image": "/PhotoProduct/3_earring.webp",
+        "current_price": 120.00,
+        "old_price": 130.00,
+        "isBestseller": false,
+        "category": "Earrings",
+        "colors": [
+            "silver",
+            "gold"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Gold Pigeon Blood Earrings",
+        "image": "/PhotoProduct/4_earring.webp",
+        "current_price": 180.00,
+        "old_price": 200.00,
+        "isBestseller": true,
+        "category": "Earrings",
+        "colors": [
+            "gold"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Rose Gold Diamond Earring",
+        "image": "/PhotoProduct/5_earring.webp",
+        "current_price": 280.00,
+        "old_price": 300.00,
+        "isBestseller": false,
+        "category": "Rings",
+        "colors": [
+            "silver"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Solitaire Diamond Engagement Ring",
+        "image": "/PhotoProduct/1_ring.webp",
+        "current_price": 230.00,
+        "old_price": 250.00,
+        "isBestseller": true,
+        "category": "Rings",
+        "colors": [
+            "silver",
+            "gold"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Gold Prestige Intertwined Earrings",
+        "image": "/PhotoProduct/3_earring.webp",
+        "current_price": 120.00,
+        "old_price": 130.00,
+        "isBestseller": false,
+        "category": "Earrings",
+        "colors": [
+            "silver",
+            "gold"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Gold Pigeon Blood Earrings",
+        "image": "/PhotoProduct/4_earring.webp",
+        "current_price": 180.00,
+        "old_price": 200.00,
+        "isBestseller": true,
+        "category": "Earrings",
+        "colors": [
+            "gold"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Rose Gold Diamond Earring",
+        "image": "/PhotoProduct/5_earring.webp",
+        "current_price": 280.00,
+        "old_price": 300.00,
+        "isBestseller": false,
+        "category": "Rings",
+        "colors": [
+            "silver"
+        ]
+    }
+]
